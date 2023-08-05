@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-05T03:38:46.339Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="0FVZfp1BrdBH1vMt3sqB" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-05T05:53:25.136Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="halceSXa1tV3aeTFAROi" version="21.6.6" type="github">
   <diagram name="第 1 页" id="tNOFmXezS_4E29bfNKuJ">
     <mxGraphModel dx="2952" dy="1851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -507,7 +507,7 @@
         <mxCell id="ZDzOGTmrpcQAj9KrEOxm-4" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;c&lt;sub&gt;t&lt;/sub&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="450" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZDzOGTmrpcQAj9KrEOxm-5" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;SG&lt;sub&gt;t&lt;/sub&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZDzOGTmrpcQAj9KrEOxm-5" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;IG&lt;sub&gt;t&lt;/sub&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="450" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZDzOGTmrpcQAj9KrEOxm-6" value="&lt;font style=&quot;font-size: 17px;&quot; face=&quot;Times New Roman&quot;&gt;{rm&lt;sub&gt;t&lt;/sub&gt;}m∈M&#39;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
