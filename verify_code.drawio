@@ -1,14 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2024-04-25T10:52:49.477Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="0aRswDw9gwfaQ8Vmk-sa" version="24.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-25T11:18:09.728Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Kga4Aokau8zuzv9TKd75" version="24.2.8" type="github">
   <diagram name="第 1 页" id="iJ3RDaBsDkiibVPw74gK">
-    <mxGraphModel dx="821" dy="1690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="933" dy="1792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="w9kX-I3qxIsX-tAkNDgR-72" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-60" width="720" height="800" as="geometry" />
+        </mxCell>
         <mxCell id="w9kX-I3qxIsX-tAkNDgR-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cLkxvn7BE41b-FN8lYlk-1" target="w9kX-I3qxIsX-tAkNDgR-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cLkxvn7BE41b-FN8lYlk-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="371" y="-60" width="120" height="60" as="geometry" />
+          <mxGeometry x="371" y="-40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w9kX-I3qxIsX-tAkNDgR-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="w9kX-I3qxIsX-tAkNDgR-2" target="w9kX-I3qxIsX-tAkNDgR-40">
           <mxGeometry relative="1" as="geometry" />
@@ -20,7 +23,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="w9kX-I3qxIsX-tAkNDgR-8" value="再一次从Redis中获取历史验证码信息，更新" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="400" width="120" height="60" as="geometry" />
+          <mxGeometry x="530" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w9kX-I3qxIsX-tAkNDgR-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="w9kX-I3qxIsX-tAkNDgR-16" target="w9kX-I3qxIsX-tAkNDgR-25">
           <mxGeometry relative="1" as="geometry">
@@ -100,10 +103,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="w9kX-I3qxIsX-tAkNDgR-31" value="是否是&lt;div&gt;测试用户&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="391" y="390" width="80" height="80" as="geometry" />
+          <mxGeometry x="391" y="410" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="w9kX-I3qxIsX-tAkNDgR-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="w9kX-I3qxIsX-tAkNDgR-40" target="w9kX-I3qxIsX-tAkNDgR-31">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="431" y="370" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="w9kX-I3qxIsX-tAkNDgR-50" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w9kX-I3qxIsX-tAkNDgR-42">
           <mxGeometry x="0.1429" y="-2" relative="1" as="geometry">
