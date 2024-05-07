@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-07T06:37:39.199Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.3.1" etag="zuQpnqvIe_JukvBL8hxl" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-07T08:09:50.048Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="VbvMFV0iBTMPssIn6NlV" version="24.3.1" type="github">
   <diagram name="Page-1" id="e3a06f82-3646-2815-327d-82caf3d4e204">
-    <mxGraphModel dx="1434" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="4318.5" dy="1628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
@@ -185,6 +185,15 @@
         </mxCell>
         <mxCell id="6a7d8f32e03d9370-62" value="Citrix Network Architecture" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="499" y="30" width="861" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EL_RIF5yjizPgl65kuYD-126" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://s3-conveyor.didiglobal.com/didoc-upload-image-prod/171404258025990b506b87453a2740467b1c8177d7436/image.png;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="1530" width="1121" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="EL_RIF5yjizPgl65kuYD-127" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://s3-cooper.xiaojukeji.com/didoc-upload-image-prod/17143005875862a71148c2b1aa85814bd7f770bd180ad/image.png;" vertex="1" parent="1">
+          <mxGeometry x="759" y="1540" width="1071" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="EL_RIF5yjizPgl65kuYD-129" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://s3-cooper.xiaojukeji.com/didoc-upload-image-prod/17143821133253db1c99cd2202dad28415e3d77f9f6ac/image.png;" vertex="1" parent="1">
+          <mxGeometry x="130" y="2860" width="1200" height="782" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
