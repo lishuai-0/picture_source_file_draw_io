@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-08T02:45:51.932Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="uWXIy1EUv1RHXmYfOzCw" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-08T02:48:09.281Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="kWP2V-zMO7YKh9_Zschl" version="24.3.1" type="github">
   <diagram name="Page-1" id="e3a06f82-3646-2815-327d-82caf3d4e204">
     <mxGraphModel dx="6441" dy="4338" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -221,16 +221,16 @@
         <mxCell id="EL_RIF5yjizPgl65kuYD-266" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/buildings/Medium_Business_Building.svg;" vertex="1" parent="1">
           <mxGeometry x="-1714.5" y="-680" width="122" height="156.77" as="geometry" />
         </mxCell>
-        <mxCell id="EL_RIF5yjizPgl65kuYD-267" value="Cloud Center" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=38;" vertex="1" parent="1">
+        <mxCell id="EL_RIF5yjizPgl65kuYD-267" value="Edge Server" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=38;" vertex="1" parent="1">
           <mxGeometry x="-1510" y="-1166.24" width="320" height="110" as="geometry" />
         </mxCell>
         <mxCell id="EL_RIF5yjizPgl65kuYD-268" value="Cloud Center" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=38;" vertex="1" parent="1">
           <mxGeometry x="-1510" y="-1410" width="320" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="EL_RIF5yjizPgl65kuYD-269" value="Cloud Center" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=38;" vertex="1" parent="1">
+        <mxCell id="EL_RIF5yjizPgl65kuYD-269" value="Community" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=38;" vertex="1" parent="1">
           <mxGeometry x="-1500" y="-908.02" width="320" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="EL_RIF5yjizPgl65kuYD-271" value="Cloud Center" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=38;" vertex="1" parent="1">
+        <mxCell id="EL_RIF5yjizPgl65kuYD-271" value="Floor" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=38;" vertex="1" parent="1">
           <mxGeometry x="-1500" y="-656.62" width="320" height="110" as="geometry" />
         </mxCell>
         <mxCell id="EL_RIF5yjizPgl65kuYD-223" value="" style="group" vertex="1" connectable="0" parent="1">
