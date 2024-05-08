@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2024-05-08T02:11:02.919Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="wERESSd8xKGAGqZJTg6w" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-08T02:12:44.441Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="V2LWcFkqZSTHcEfilR-x" version="24.3.1" type="github">
   <diagram name="Page-1" id="e3a06f82-3646-2815-327d-82caf3d4e204">
     <mxGraphModel dx="5173.5" dy="3409" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
-        <mxCell id="EL_RIF5yjizPgl65kuYD-155" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EL_RIF5yjizPgl65kuYD-155" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-1190" y="-950" width="2280" height="2430" as="geometry" />
         </mxCell>
         <mxCell id="EL_RIF5yjizPgl65kuYD-137" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/API_Management_Services.svg;" vertex="1" parent="1">
@@ -14,7 +14,7 @@
           <mxGeometry x="560" y="-120" width="165" height="160" as="geometry" />
         </mxCell>
         <mxCell id="EL_RIF5yjizPgl65kuYD-141" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Virtual_Clusters.svg;" vertex="1" parent="1">
-          <mxGeometry x="540" y="260" width="164.06" height="159.09" as="geometry" />
+          <mxGeometry x="-520" y="-159" width="164.06" height="159.09" as="geometry" />
         </mxCell>
         <mxCell id="EL_RIF5yjizPgl65kuYD-154" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="950" y="680.0000000000002" width="982" height="590.37" as="geometry" />
@@ -25,58 +25,20 @@
         <mxCell id="EL_RIF5yjizPgl65kuYD-153" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=2;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="1202" y="730" width="520" height="470" as="geometry" />
         </mxCell>
-        <mxCell id="EL_RIF5yjizPgl65kuYD-187" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-390" y="419.09000000000003" width="540" height="430" as="geometry" />
-        </mxCell>
-        <mxCell id="EL_RIF5yjizPgl65kuYD-172" value="" style="group" vertex="1" connectable="0" parent="EL_RIF5yjizPgl65kuYD-187">
-          <mxGeometry width="540" height="430" as="geometry" />
-        </mxCell>
-        <mxCell id="EL_RIF5yjizPgl65kuYD-143" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="EL_RIF5yjizPgl65kuYD-172">
-          <mxGeometry width="540" height="430" as="geometry" />
-        </mxCell>
-        <mxCell id="EL_RIF5yjizPgl65kuYD-145" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/buildings/Medium_Business_Building.svg;" vertex="1" parent="EL_RIF5yjizPgl65kuYD-172">
-          <mxGeometry x="66.42964285714285" y="102.82608695652175" width="94.5158695652174" height="121.52173913043478" as="geometry" />
-        </mxCell>
-        <mxCell id="EL_RIF5yjizPgl65kuYD-146" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/buildings/Medium_Business_Building.svg;" vertex="1" parent="EL_RIF5yjizPgl65kuYD-172">
-          <mxGeometry x="115.71428571428572" y="280.4347826086957" width="94.5158695652174" height="121.52173913043478" as="geometry" />
-        </mxCell>
-        <mxCell id="EL_RIF5yjizPgl65kuYD-147" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/buildings/Medium_Business_Building.svg;" vertex="1" parent="EL_RIF5yjizPgl65kuYD-172">
-          <mxGeometry x="260.35714285714283" y="205.6521739130435" width="87.25260869565219" height="112.17391304347827" as="geometry" />
-        </mxCell>
-        <mxCell id="EL_RIF5yjizPgl65kuYD-148" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/buildings/Medium_Business_Building.svg;" vertex="1" parent="EL_RIF5yjizPgl65kuYD-172">
-          <mxGeometry x="401.77928571428566" y="149.56521739130434" width="87.25260869565219" height="112.17391304347827" as="geometry" />
-        </mxCell>
-        <mxCell id="EL_RIF5yjizPgl65kuYD-149" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/buildings/Medium_Business_Building.svg;" vertex="1" parent="EL_RIF5yjizPgl65kuYD-172">
-          <mxGeometry x="252.855" y="18.695652173913043" width="94.52521739130435" height="121.52173913043478" as="geometry" />
-        </mxCell>
-        <mxCell id="EL_RIF5yjizPgl65kuYD-175" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=4;rounded=0;" edge="1" parent="EL_RIF5yjizPgl65kuYD-172" target="EL_RIF5yjizPgl65kuYD-149">
+        <mxCell id="EL_RIF5yjizPgl65kuYD-215" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="173.57142857142858" y="186.95652173913044" as="sourcePoint" />
-            <mxPoint x="318.2142857142857" y="102.82608695652175" as="targetPoint" />
+            <mxPoint x="-200" y="1770" as="sourcePoint" />
+            <mxPoint x="1220" y="1750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EL_RIF5yjizPgl65kuYD-176" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=4;rounded=0;" edge="1" parent="EL_RIF5yjizPgl65kuYD-187" source="EL_RIF5yjizPgl65kuYD-145">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="183.21428571428572" y="196.30434782608697" as="sourcePoint" />
-            <mxPoint x="262.2857142857143" y="129.93478260869566" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="163.92857142857144" y="280.4347826086957" />
-              <mxPoint x="298.92857142857144" y="233.69565217391306" />
-              <mxPoint x="414.64285714285717" y="177.60869565217394" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="EL_RIF5yjizPgl65kuYD-216" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="1690" width="440" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EL_RIF5yjizPgl65kuYD-177" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=4;rounded=0;" edge="1" parent="EL_RIF5yjizPgl65kuYD-187" target="EL_RIF5yjizPgl65kuYD-149">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="173.57142857142858" y="280.4347826086957" as="sourcePoint" />
-            <mxPoint x="271.92857142857144" y="139.2826086956522" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="EL_RIF5yjizPgl65kuYD-234" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="-1075.47" y="360" width="1940" height="780" as="geometry" />
         </mxCell>
-        <mxCell id="EL_RIF5yjizPgl65kuYD-178" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=4;rounded=0;exitX=0.978;exitY=0.888;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="EL_RIF5yjizPgl65kuYD-187" source="EL_RIF5yjizPgl65kuYD-145">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="202.5" y="215" as="sourcePoint" />
-            <mxPoint x="395.3571428571429" y="177.60869565217394" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="EL_RIF5yjizPgl65kuYD-217" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="481.5" y="1690" width="419" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EL_RIF5yjizPgl65kuYD-200" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="210" y="640" width="560" height="460" as="geometry" />
@@ -131,18 +93,6 @@
             <mxPoint x="410" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EL_RIF5yjizPgl65kuYD-215" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-200" y="1770" as="sourcePoint" />
-            <mxPoint x="1220" y="1750" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EL_RIF5yjizPgl65kuYD-216" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="1690" width="440" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="EL_RIF5yjizPgl65kuYD-217" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="481.5" y="1690" width="419" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="EL_RIF5yjizPgl65kuYD-222" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-980" y="670" width="540" height="430" as="geometry" />
         </mxCell>
@@ -195,6 +145,62 @@
             <mxPoint x="202.5" y="215" as="sourcePoint" />
             <mxPoint x="395.3571428571429" y="177.60869565217394" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="EL_RIF5yjizPgl65kuYD-187" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-390" y="419.09000000000003" width="540" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="EL_RIF5yjizPgl65kuYD-172" value="" style="group" vertex="1" connectable="0" parent="EL_RIF5yjizPgl65kuYD-187">
+          <mxGeometry width="540" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="EL_RIF5yjizPgl65kuYD-143" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="EL_RIF5yjizPgl65kuYD-172">
+          <mxGeometry width="540" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="EL_RIF5yjizPgl65kuYD-145" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/buildings/Medium_Business_Building.svg;" vertex="1" parent="EL_RIF5yjizPgl65kuYD-172">
+          <mxGeometry x="66.42964285714285" y="102.82608695652175" width="94.5158695652174" height="121.52173913043478" as="geometry" />
+        </mxCell>
+        <mxCell id="EL_RIF5yjizPgl65kuYD-146" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/buildings/Medium_Business_Building.svg;" vertex="1" parent="EL_RIF5yjizPgl65kuYD-172">
+          <mxGeometry x="115.71428571428572" y="280.4347826086957" width="94.5158695652174" height="121.52173913043478" as="geometry" />
+        </mxCell>
+        <mxCell id="EL_RIF5yjizPgl65kuYD-147" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/buildings/Medium_Business_Building.svg;" vertex="1" parent="EL_RIF5yjizPgl65kuYD-172">
+          <mxGeometry x="260.35714285714283" y="205.6521739130435" width="87.25260869565219" height="112.17391304347827" as="geometry" />
+        </mxCell>
+        <mxCell id="EL_RIF5yjizPgl65kuYD-148" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/buildings/Medium_Business_Building.svg;" vertex="1" parent="EL_RIF5yjizPgl65kuYD-172">
+          <mxGeometry x="401.77928571428566" y="149.56521739130434" width="87.25260869565219" height="112.17391304347827" as="geometry" />
+        </mxCell>
+        <mxCell id="EL_RIF5yjizPgl65kuYD-149" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/buildings/Medium_Business_Building.svg;" vertex="1" parent="EL_RIF5yjizPgl65kuYD-172">
+          <mxGeometry x="252.855" y="18.695652173913043" width="94.52521739130435" height="121.52173913043478" as="geometry" />
+        </mxCell>
+        <mxCell id="EL_RIF5yjizPgl65kuYD-175" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=4;rounded=0;" edge="1" parent="EL_RIF5yjizPgl65kuYD-172" target="EL_RIF5yjizPgl65kuYD-149">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="173.57142857142858" y="186.95652173913044" as="sourcePoint" />
+            <mxPoint x="318.2142857142857" y="102.82608695652175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EL_RIF5yjizPgl65kuYD-176" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=4;rounded=0;" edge="1" parent="EL_RIF5yjizPgl65kuYD-187" source="EL_RIF5yjizPgl65kuYD-145">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="183.21428571428572" y="196.30434782608697" as="sourcePoint" />
+            <mxPoint x="262.2857142857143" y="129.93478260869566" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="163.92857142857144" y="280.4347826086957" />
+              <mxPoint x="298.92857142857144" y="233.69565217391306" />
+              <mxPoint x="414.64285714285717" y="177.60869565217394" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EL_RIF5yjizPgl65kuYD-177" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=4;rounded=0;" edge="1" parent="EL_RIF5yjizPgl65kuYD-187" target="EL_RIF5yjizPgl65kuYD-149">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="173.57142857142858" y="280.4347826086957" as="sourcePoint" />
+            <mxPoint x="271.92857142857144" y="139.2826086956522" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EL_RIF5yjizPgl65kuYD-178" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=4;rounded=0;exitX=0.978;exitY=0.888;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="EL_RIF5yjizPgl65kuYD-187" source="EL_RIF5yjizPgl65kuYD-145">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="202.5" y="215" as="sourcePoint" />
+            <mxPoint x="395.3571428571429" y="177.60869565217394" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EL_RIF5yjizPgl65kuYD-235" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1075" y="270" width="1935" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
