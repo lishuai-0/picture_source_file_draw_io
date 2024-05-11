@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-11T04:19:56.700Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="EXjR3VuBsuFVc1pF2JVJ" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-11T04:20:14.168Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="pmleWayJo5a7JmVhSWWC" version="24.3.1" type="github">
   <diagram name="Page-1" id="e3a06f82-3646-2815-327d-82caf3d4e204">
     <mxGraphModel dx="5559" dy="3780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -833,7 +833,7 @@
           <mxGeometry x="3830.86" y="2220" width="127.05" height="107.39" as="geometry" />
         </mxCell>
         <mxCell id="2Ft-rD3SdvtTYl6L_ObH-211" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3220" y="1070" width="509.17" height="487.51" as="geometry" />
+          <mxGeometry x="3220" y="1190" width="509.17" height="367.51" as="geometry" />
         </mxCell>
         <mxCell id="2Ft-rD3SdvtTYl6L_ObH-240" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#76608a;rotation=-15;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="3509.5816755249266" y="1296.611026330103" width="20.25136670468881" height="19.02940924837913" as="geometry" />
@@ -1012,8 +1012,8 @@
         <mxCell id="2Ft-rD3SdvtTYl6L_ObH-522" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#76608a;rotation=-15;strokeColor=#432D57;fontColor=#ffffff;direction=east;" vertex="1" parent="1">
           <mxGeometry x="4522.119999999999" y="1401.49" width="17.87" height="22.39" as="geometry" />
         </mxCell>
-        <mxCell id="2Ft-rD3SdvtTYl6L_ObH-50" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Virtual_Clusters.svg;" vertex="1" parent="1">
-          <mxGeometry x="3430" y="1106.24" width="157.82" height="153.04" as="geometry" />
+        <mxCell id="2Ft-rD3SdvtTYl6L_ObH-528" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Virtual_Clusters.svg;" vertex="1" parent="1">
+          <mxGeometry x="3387.877217995369" y="650.0044633867208" width="186.28328816835764" height="180.63982068417528" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
