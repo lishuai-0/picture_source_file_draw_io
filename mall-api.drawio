@@ -1,9 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2024-05-27T02:32:05.106Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.4.2" etag="Y2E5gn_W8jwIy7zpQvg2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-27T02:38:59.622Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="M-OoPdbx8w7uzhpZIQG9" version="24.4.2" type="github">
   <diagram name="第 1 页" id="m2qNsplwGHYHztVNJcIK">
-    <mxGraphModel>
+    <mxGraphModel dx="1266" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="81ZPTf6w29WsHrpijZJo-3" value="主线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="360" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="81ZPTf6w29WsHrpijZJo-4" value="ballast优化- gc延迟" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="81ZPTf6w29WsHrpijZJo-5" value="主线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="81ZPTf6w29WsHrpijZJo-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="81ZPTf6w29WsHrpijZJo-7" value="monitor&amp;nbsp;&lt;div&gt;对服务进行监控&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="81ZPTf6w29WsHrpijZJo-8" value="初始化&lt;div&gt;&lt;div&gt;配置初始化-&amp;gt;日志初始化-&amp;gt;disf服务发现初始化-&amp;gt;apollo配置中心初始化&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;-&amp;gt;redis初始化-&amp;gt;lib注册初始化-&amp;gt;错误码注册初始化&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="221" y="760" width="506" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="81ZPTf6w29WsHrpijZJo-9" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
