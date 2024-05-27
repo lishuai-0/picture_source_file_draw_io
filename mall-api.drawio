@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-27T09:25:30.569Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="4F2t3DLGjFcJBN64blad" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-27T09:39:00.590Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="JJpREaWkAcFyZJB4f52G" version="24.4.8" type="github">
   <diagram name="第 1 页" id="m2qNsplwGHYHztVNJcIK">
-    <mxGraphModel dx="1151" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1055" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,7 +55,7 @@
         <mxCell id="81ZPTf6w29WsHrpijZJo-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="81ZPTf6w29WsHrpijZJo-16" target="81ZPTf6w29WsHrpijZJo-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="81ZPTf6w29WsHrpijZJo-16" value="添加中间件（跨域、trace中间件、metric 上报中间件、拦截特定http状态码、rateLimit 限流中间件、登录鉴权）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="81ZPTf6w29WsHrpijZJo-16" value="添加中间件（recover、跨域、trace中间件、metric 上报中间件、拦截特定http状态码、rateLimit 限流中间件、登录鉴权）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="835" y="1100" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gUGXTbBGe3uuQuenIkA3-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="81ZPTf6w29WsHrpijZJo-17" target="gUGXTbBGe3uuQuenIkA3-1">
@@ -69,6 +69,18 @@
         </mxCell>
         <mxCell id="gUGXTbBGe3uuQuenIkA3-3" value="渲染引擎" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="1510" width="510" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gUGXTbBGe3uuQuenIkA3-8" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1145" y="1129.58" as="sourcePoint" />
+            <mxPoint x="1235" y="1129.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gUGXTbBGe3uuQuenIkA3-9" value="recover：让程序从panic中恢复过来，防止挂掉影响其他服务。恢复过来的同时，发送一个通知" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="880" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gUGXTbBGe3uuQuenIkA3-10" value="recover：让程序从panic中恢复过来，防止挂掉影响其他服务。恢复过来的同时，发送一个通知。巧妙使用defer&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="990" width="180" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
