@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-27T09:39:00.590Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="JJpREaWkAcFyZJB4f52G" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-27T09:45:06.900Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="y3Rzjqex4YgJ_H-EOnCr" version="24.4.8" type="github">
   <diagram name="第 1 页" id="m2qNsplwGHYHztVNJcIK">
     <mxGraphModel dx="1055" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -79,8 +79,11 @@
         <mxCell id="gUGXTbBGe3uuQuenIkA3-9" value="recover：让程序从panic中恢复过来，防止挂掉影响其他服务。恢复过来的同时，发送一个通知" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1270" y="880" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="gUGXTbBGe3uuQuenIkA3-10" value="recover：让程序从panic中恢复过来，防止挂掉影响其他服务。恢复过来的同时，发送一个通知。巧妙使用defer&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1270" y="990" width="180" height="80" as="geometry" />
+        <mxCell id="gUGXTbBGe3uuQuenIkA3-10" value="trace中间件：" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="1120" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gUGXTbBGe3uuQuenIkA3-11" value="跨域：在response的header中设置允许跨域的所有配置项" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="1010" width="180" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
