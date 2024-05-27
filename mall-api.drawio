@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-27T02:39:52.817Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="S_qkq7YX6WYRucPXP4q8" version="24.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-27T09:22:32.762Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="lvoSH6Fnazo3Kv6rVOCT" version="24.4.2" type="github">
   <diagram name="第 1 页" id="m2qNsplwGHYHztVNJcIK">
     <mxGraphModel dx="1407" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,8 +22,11 @@
         <mxCell id="81ZPTf6w29WsHrpijZJo-5" value="主线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="81ZPTf6w29WsHrpijZJo-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="350" width="120" height="60" as="geometry" />
+        <mxCell id="81ZPTf6w29WsHrpijZJo-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="81ZPTf6w29WsHrpijZJo-6" target="81ZPTf6w29WsHrpijZJo-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="81ZPTf6w29WsHrpijZJo-6" value="读取viper配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="860" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="81ZPTf6w29WsHrpijZJo-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="81ZPTf6w29WsHrpijZJo-7" target="81ZPTf6w29WsHrpijZJo-8">
           <mxGeometry relative="1" as="geometry" />
@@ -37,17 +40,26 @@
         <mxCell id="81ZPTf6w29WsHrpijZJo-8" value="初始化&lt;div&gt;&lt;div&gt;配置初始化-&amp;gt;日志初始化-&amp;gt;disf服务发现初始化-&amp;gt;apollo配置中心初始化&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;-&amp;gt;redis初始化-&amp;gt;lib注册初始化-&amp;gt;错误码注册初始化&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="217" y="760" width="506" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="81ZPTf6w29WsHrpijZJo-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="81ZPTf6w29WsHrpijZJo-9" target="81ZPTf6w29WsHrpijZJo-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="81ZPTf6w29WsHrpijZJo-9" value="启动服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="860" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="81ZPTf6w29WsHrpijZJo-15" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="460" width="120" height="60" as="geometry" />
+        <mxCell id="81ZPTf6w29WsHrpijZJo-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="81ZPTf6w29WsHrpijZJo-15" target="81ZPTf6w29WsHrpijZJo-16">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="81ZPTf6w29WsHrpijZJo-16" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="590" width="120" height="60" as="geometry" />
+        <mxCell id="81ZPTf6w29WsHrpijZJo-15" value="注册服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="970" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="81ZPTf6w29WsHrpijZJo-17" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="720" width="120" height="60" as="geometry" />
+        <mxCell id="81ZPTf6w29WsHrpijZJo-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="81ZPTf6w29WsHrpijZJo-16" target="81ZPTf6w29WsHrpijZJo-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="81ZPTf6w29WsHrpijZJo-16" value="添加中间件（跨域、trace中间件、metric 上报中间件、拦截特定http状态码、rateLimit 限流中间件、登录鉴权）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="835" y="1100" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="81ZPTf6w29WsHrpijZJo-17" value="设置默认编码方式、http错误码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="1230" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
