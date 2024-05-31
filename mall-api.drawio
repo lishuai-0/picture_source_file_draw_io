@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-31T07:15:31.636Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="oXWe6Kp-NYfPhd4n3IsZ" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-31T08:01:21.853Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="7VuK00zxbcZB9gd2uw2a" version="24.4.8" type="github">
   <diagram name="第 1 页" id="m2qNsplwGHYHztVNJcIK">
-    <mxGraphModel dx="1368" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1080" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -142,7 +142,7 @@
         <mxCell id="95k89rPFp5nztIDtfaFW-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="95k89rPFp5nztIDtfaFW-14" target="95k89rPFp5nztIDtfaFW-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-14" value="获取对应路由的所有模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-14" value="获取对应页面的所有模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="331" y="1940" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="95k89rPFp5nztIDtfaFW-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="95k89rPFp5nztIDtfaFW-15" target="95k89rPFp5nztIDtfaFW-22">
@@ -181,17 +181,71 @@
             <mxPoint x="530" y="1559.33" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-32" value="异常参数拦截" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-32" value="引擎所需异常参数拦截" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="1530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="95k89rPFp5nztIDtfaFW-33" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="1669.33" as="sourcePoint" />
-            <mxPoint x="540" y="1669.33" as="targetPoint" />
+            <mxPoint x="470" y="1669.33" as="sourcePoint" />
+            <mxPoint x="530" y="1669.33" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-34" value="异常参数拦截" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="1640" width="120" height="60" as="geometry" />
+        <mxCell id="95k89rPFp5nztIDtfaFW-34" value="引擎所需异常参数拦截" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="95k89rPFp5nztIDtfaFW-35" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="1769.33" as="sourcePoint" />
+            <mxPoint x="530" y="1769.33" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95k89rPFp5nztIDtfaFW-36" value="异常用户、异常ip拦截，页面降级拦截" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="95k89rPFp5nztIDtfaFW-38" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="1879.33" as="sourcePoint" />
+            <mxPoint x="530" y="1879.33" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95k89rPFp5nztIDtfaFW-39" value="获取所有的路由配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="95k89rPFp5nztIDtfaFW-41" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="1879.33" as="sourcePoint" />
+            <mxPoint x="740" y="1879.33" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95k89rPFp5nztIDtfaFW-42" value="根据entrance、page_source等匹配对应的路由" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="95k89rPFp5nztIDtfaFW-44" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="880" y="1879.33" as="sourcePoint" />
+            <mxPoint x="940" y="1879.33" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95k89rPFp5nztIDtfaFW-45" value="解析路由，获取投放计划列表（城市+用户），选取优先级最高的计划。&lt;div&gt;在路由中获取页面配置（如果开启灰度，走灰度的新页面配置）&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1750" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="95k89rPFp5nztIDtfaFW-48" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="1969.33" as="sourcePoint" />
+            <mxPoint x="530" y="1969.33" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95k89rPFp5nztIDtfaFW-49" value="读取页面的模块配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="95k89rPFp5nztIDtfaFW-50" value="判断隐藏规则、灰度规则" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="95k89rPFp5nztIDtfaFW-51" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="1969.62" as="sourcePoint" />
+            <mxPoint x="740" y="1969.62" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
