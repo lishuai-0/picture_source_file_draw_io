@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-31T06:46:12.707Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="h3m6Hm4lp8fGVk2fDlxZ" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-31T06:48:58.573Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="IthDAlqknUSB8K1Z0TzJ" version="24.4.8" type="github">
   <diagram name="第 1 页" id="m2qNsplwGHYHztVNJcIK">
-    <mxGraphModel dx="1710" dy="1085" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1368" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -71,7 +71,7 @@
           <mxGeometry x="975" y="810" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gUGXTbBGe3uuQuenIkA3-3" value="渲染引擎" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="390" y="1510" width="510" height="40" as="geometry" />
+          <mxGeometry x="331" y="1340" width="910" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gUGXTbBGe3uuQuenIkA3-8" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -108,6 +108,15 @@
         </mxCell>
         <mxCell id="95k89rPFp5nztIDtfaFW-6" value="内部接口：走token+caller鉴权，为指定的caller颁发token&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;外部接口走：走登陆鉴权&lt;/span&gt;&lt;div&gt;外部接口进行差异化鉴权，将各个端的鉴权分开：车主端、小程序、H5等&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1610" y="880" width="190" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="95k89rPFp5nztIDtfaFW-9" value="初始化" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="331" y="1420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="95k89rPFp5nztIDtfaFW-10" value="异常参数拦截" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="95k89rPFp5nztIDtfaFW-11" value="defer 记录并上报中间件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1420" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
