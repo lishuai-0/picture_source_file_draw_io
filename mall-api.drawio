@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-31T05:34:02.273Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="pUhle2ZhkrbiLynD4DjB" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-31T05:40:19.717Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="FFXJG4MX7lQkfZ3TM6mL" version="24.4.8" type="github">
   <diagram name="第 1 页" id="m2qNsplwGHYHztVNJcIK">
     <mxGraphModel dx="1407" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -100,7 +100,7 @@
             <mxPoint x="1590" y="1500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-6" value="内部接口：走token+caller鉴权&lt;div&gt;外部接口走：走登陆鉴权&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;外部接口将各个端的鉴权分开：车主端、小程序、H5等&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-6" value="内部接口：走token+caller鉴权，为指定的caller颁发token&lt;div&gt;外部接口走：走登陆鉴权&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;外部接口将各个端的鉴权分开：车主端、小程序、H5等&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1610" y="1420" width="190" height="170" as="geometry" />
         </mxCell>
       </root>
