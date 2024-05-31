@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-31T06:45:41.925Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="nrJYMP64uaHSXuxUWnsv" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-31T06:45:52.485Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="8RTGSReDTWoaSuWQKEij" version="24.4.8" type="github">
   <diagram name="第 1 页" id="m2qNsplwGHYHztVNJcIK">
     <mxGraphModel dx="2110" dy="1085" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -99,12 +99,15 @@
         </mxCell>
         <mxCell id="95k89rPFp5nztIDtfaFW-5" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1515" y="970" as="sourcePoint" />
-            <mxPoint x="1635" y="970" as="targetPoint" />
+            <mxPoint x="1490" y="959.17" as="sourcePoint" />
+            <mxPoint x="1610" y="959.17" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1505" y="959.17" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="95k89rPFp5nztIDtfaFW-6" value="内部接口：走token+caller鉴权，为指定的caller颁发token&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;外部接口走：走登陆鉴权&lt;/span&gt;&lt;div&gt;外部接口进行差异化鉴权，将各个端的鉴权分开：车主端、小程序、H5等&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1655" y="890" width="190" height="170" as="geometry" />
+          <mxGeometry x="1610" y="880" width="190" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
