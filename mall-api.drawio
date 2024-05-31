@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-31T07:10:14.829Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="FMOUgkpCLzh0MCoiIo0T" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-31T07:10:36.909Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="nD5-gXoSh36f69r3XlGe" version="24.4.8" type="github">
   <diagram name="第 1 页" id="m2qNsplwGHYHztVNJcIK">
     <mxGraphModel dx="1368" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -151,8 +151,14 @@
         <mxCell id="95k89rPFp5nztIDtfaFW-15" value="数据源准备" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="331" y="2050" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="95k89rPFp5nztIDtfaFW-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="95k89rPFp5nztIDtfaFW-22" target="95k89rPFp5nztIDtfaFW-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="95k89rPFp5nztIDtfaFW-22" value="数据源准备：确认模块都需要哪些数据源、以及数据源的获取顺序" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="331" y="2160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="95k89rPFp5nztIDtfaFW-24" value="数据源加载" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="331" y="2260" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
