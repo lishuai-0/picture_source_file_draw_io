@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-31T08:01:21.853Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="7VuK00zxbcZB9gd2uw2a" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-31T08:01:45.017Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="LfH5piljnq2u03PTIwuj" version="24.4.8" type="github">
   <diagram name="第 1 页" id="m2qNsplwGHYHztVNJcIK">
     <mxGraphModel dx="1080" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -238,7 +238,7 @@
         <mxCell id="95k89rPFp5nztIDtfaFW-49" value="读取页面的模块配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="1940" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-50" value="判断隐藏规则、灰度规则" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-50" value="判断隐藏规则、灰度规则。加载具体的模块列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="1940" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="95k89rPFp5nztIDtfaFW-51" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
