@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-31T08:01:45.017Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="LfH5piljnq2u03PTIwuj" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-31T08:07:35.937Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="xel9D3QGq15ghz4ABeKC" version="24.4.8" type="github">
   <diagram name="第 1 页" id="m2qNsplwGHYHztVNJcIK">
     <mxGraphModel dx="1080" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -142,7 +142,7 @@
         <mxCell id="95k89rPFp5nztIDtfaFW-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="95k89rPFp5nztIDtfaFW-14" target="95k89rPFp5nztIDtfaFW-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-14" value="获取对应页面的所有模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-14" value="模块处理，获取对应页面的所有模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="331" y="1940" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="95k89rPFp5nztIDtfaFW-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="95k89rPFp5nztIDtfaFW-15" target="95k89rPFp5nztIDtfaFW-22">
@@ -246,6 +246,15 @@
             <mxPoint x="680" y="1969.62" as="sourcePoint" />
             <mxPoint x="740" y="1969.62" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="95k89rPFp5nztIDtfaFW-54" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="2079.33" as="sourcePoint" />
+            <mxPoint x="540" y="2079.33" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95k89rPFp5nztIDtfaFW-55" value="解析每个模块需要所有数据源，并确认数据源的获取顺序" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="2050" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
