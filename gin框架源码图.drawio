@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-02T05:47:36.390Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="T5wCO_9cFyXKKGXbb3dG" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-02T05:48:09.983Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="G5W2RLiW9aja59qUHGo3" version="24.4.13" type="github">
   <diagram name="第 1 页" id="FhTdC2bvr46xT0aSxTmh">
     <mxGraphModel dx="821" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -129,14 +129,16 @@
         <mxCell id="dOF-xwtYB641dK5NcoF4-54" value="如果是param通配符，把通配符前面有的路径存入节点path。" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1660" y="130" width="100" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="dOF-xwtYB641dK5NcoF4-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dOF-xwtYB641dK5NcoF4-56" target="dOF-xwtYB641dK5NcoF4-57">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="dOF-xwtYB641dK5NcoF4-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dOF-xwtYB641dK5NcoF4-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2000" y="190" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="dOF-xwtYB641dK5NcoF4-56" value="将通配符后面的路径存入孩子节点：添加孩子节点，param类型，通配符路径为当前通配符所在路径。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1820" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dOF-xwtYB641dK5NcoF4-57" value="如果路径以通配符结尾，直接return" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2000" y="150" width="80" height="80" as="geometry" />
+        <mxCell id="dOF-xwtYB641dK5NcoF4-62" value="如果路径以通配符结尾了，直接return。反之continue" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2008" y="160" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
