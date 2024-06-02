@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2024-05-31T08:25:48.541Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="oD56OzP_mhwraW1axFVZ" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-02T04:11:26.186Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="D57mjH2bR7NNaWUBt7HF" version="24.4.10" type="github">
   <diagram name="第 1 页" id="m2qNsplwGHYHztVNJcIK">
-    <mxGraphModel dx="1466" dy="930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1080" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="95k89rPFp5nztIDtfaFW-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1290" y="310" width="220" height="700" as="geometry" />
         </mxCell>
         <mxCell id="81ZPTf6w29WsHrpijZJo-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="81ZPTf6w29WsHrpijZJo-3" target="81ZPTf6w29WsHrpijZJo-5" edge="1">
@@ -88,16 +88,16 @@
         <mxCell id="gUGXTbBGe3uuQuenIkA3-11" value="跨域：在response的header中设置允许跨域的所有配置项" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1315" y="480" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-2" value="metric上报中间件：计算请求耗时、获取状态码、识别流量类型。并上报" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-2" value="metric上报中间件：计算请求耗时、获取状态码、识别流量类型。并上报" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1315" y="690" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-3" value="rateLimit 限流中间件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-3" value="rateLimit 限流中间件" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1315" y="800" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-4" value="鉴权、必要参数校验（针对特殊场景、校验传递参数的真实性）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-4" value="鉴权、必要参数校验（针对特殊场景、校验传递参数的真实性）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1315" y="920" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-5" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-5" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1490" y="959.17" as="sourcePoint" />
             <mxPoint x="1610" y="959.17" as="targetPoint" />
@@ -106,178 +106,202 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-6" value="内部接口：走token+caller鉴权，为指定的caller颁发token&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;外部接口走：走登陆鉴权&lt;/span&gt;&lt;div&gt;外部接口进行差异化鉴权，将各个端的鉴权分开：车主端、小程序、H5等&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-6" value="内部接口：走token+caller鉴权，为指定的caller颁发token&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;外部接口走：走登陆鉴权&lt;/span&gt;&lt;div&gt;外部接口进行差异化鉴权，将各个端的鉴权分开：车主端、小程序、H5等&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1610" y="880" width="190" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="95k89rPFp5nztIDtfaFW-9" target="95k89rPFp5nztIDtfaFW-10">
+        <mxCell id="95k89rPFp5nztIDtfaFW-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="95k89rPFp5nztIDtfaFW-9" target="95k89rPFp5nztIDtfaFW-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-9" value="初始化" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-9" value="初始化" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="331" y="1420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="95k89rPFp5nztIDtfaFW-10" target="95k89rPFp5nztIDtfaFW-11">
+        <mxCell id="95k89rPFp5nztIDtfaFW-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="95k89rPFp5nztIDtfaFW-10" target="95k89rPFp5nztIDtfaFW-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-10" value="异常参数拦截" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-10" value="异常参数拦截" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="331" y="1530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="95k89rPFp5nztIDtfaFW-11" target="95k89rPFp5nztIDtfaFW-12">
+        <mxCell id="95k89rPFp5nztIDtfaFW-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="95k89rPFp5nztIDtfaFW-11" target="95k89rPFp5nztIDtfaFW-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-11" value="defer 记录并上报中间件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-11" value="defer 记录并上报中间件" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="331" y="1640" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="95k89rPFp5nztIDtfaFW-12" target="95k89rPFp5nztIDtfaFW-13">
+        <mxCell id="95k89rPFp5nztIDtfaFW-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="95k89rPFp5nztIDtfaFW-12" target="95k89rPFp5nztIDtfaFW-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-12" value="准入。拦截部分请求&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22defer%20%E8%AE%B0%E5%BD%95%E5%B9%B6%E4%B8%8A%E6%8A%A5%E4%B8%AD%E9%97%B4%E4%BB%B6%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22680%22%20y%3D%221420%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-12" value="准入。拦截部分请求&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22defer%20%E8%AE%B0%E5%BD%95%E5%B9%B6%E4%B8%8A%E6%8A%A5%E4%B8%AD%E9%97%B4%E4%BB%B6%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22680%22%20y%3D%221420%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="331" y="1740" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="95k89rPFp5nztIDtfaFW-13" target="95k89rPFp5nztIDtfaFW-14">
+        <mxCell id="95k89rPFp5nztIDtfaFW-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="95k89rPFp5nztIDtfaFW-13" target="95k89rPFp5nztIDtfaFW-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-13" value="场景路由" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-13" value="场景路由" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="331" y="1850" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="95k89rPFp5nztIDtfaFW-14" target="95k89rPFp5nztIDtfaFW-22">
+        <mxCell id="95k89rPFp5nztIDtfaFW-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="95k89rPFp5nztIDtfaFW-14" target="95k89rPFp5nztIDtfaFW-22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="391.0000000000002" y="2050" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-14" value="模块处理，获取对应页面的所有模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-14" value="模块处理，获取对应页面的所有模块" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="331" y="1940" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="95k89rPFp5nztIDtfaFW-22" target="95k89rPFp5nztIDtfaFW-24">
+        <mxCell id="95k89rPFp5nztIDtfaFW-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="95k89rPFp5nztIDtfaFW-22" target="95k89rPFp5nztIDtfaFW-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-22" value="数据源准备：确认模块都需要哪些数据源、以及数据源的获取顺序" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-22" value="数据源准备：确认模块都需要哪些数据源、以及数据源的获取顺序" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="331" y="2050" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="95k89rPFp5nztIDtfaFW-24" target="95k89rPFp5nztIDtfaFW-26">
+        <mxCell id="95k89rPFp5nztIDtfaFW-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="95k89rPFp5nztIDtfaFW-24" target="95k89rPFp5nztIDtfaFW-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-24" value="数据源加载" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-24" value="数据源加载" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="331" y="2150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-26" value="模块处理策略" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-26" value="模块处理策略" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="331" y="2260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-29" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-29" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="470" y="1449.33" as="sourcePoint" />
             <mxPoint x="530" y="1449.33" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-30" value="参数准备" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-30" value="参数准备" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="1420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-31" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-31" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="470" y="1559.33" as="sourcePoint" />
             <mxPoint x="530" y="1559.33" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-32" value="引擎所需异常参数拦截" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-32" value="引擎所需异常参数拦截" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="1530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-33" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-33" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="470" y="1669.33" as="sourcePoint" />
             <mxPoint x="530" y="1669.33" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-34" value="引擎所需异常参数拦截" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-34" value="引擎所需异常参数拦截" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="1640" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-35" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-35" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="470" y="1769.33" as="sourcePoint" />
             <mxPoint x="530" y="1769.33" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-36" value="异常用户、异常ip拦截，页面降级拦截" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-36" value="异常用户、异常ip拦截，页面降级拦截" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="1740" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-38" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-38" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="470" y="1879.33" as="sourcePoint" />
             <mxPoint x="530" y="1879.33" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-39" value="获取所有的路由配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-39" value="获取所有的路由配置" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="1850" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-41" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-41" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="680" y="1879.33" as="sourcePoint" />
             <mxPoint x="740" y="1879.33" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-42" value="根据entrance、page_source等匹配对应的路由" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-42" value="根据entrance、page_source等匹配对应的路由" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="750" y="1850" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-44" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-44" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="880" y="1879.33" as="sourcePoint" />
             <mxPoint x="940" y="1879.33" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-45" value="解析路由，获取投放计划列表（城市+用户），选取优先级最高的计划。&lt;div&gt;在路由中获取页面配置（如果开启灰度，走灰度的新页面配置）&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-45" value="解析路由，获取投放计划列表（城市+用户），选取优先级最高的计划。&lt;div&gt;在路由中获取页面配置（如果开启灰度，走灰度的新页面配置）&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="950" y="1750" width="120" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-48" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-48" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="470" y="1969.33" as="sourcePoint" />
             <mxPoint x="530" y="1969.33" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-49" value="读取页面的模块配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-49" value="读取页面的模块配置" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="1940" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-50" value="判断隐藏规则、灰度规则。加载具体的模块列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-50" value="判断隐藏规则、灰度规则。加载具体的模块列表" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="750" y="1940" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-51" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-51" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="680" y="1969.62" as="sourcePoint" />
             <mxPoint x="740" y="1969.62" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-54" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-54" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="480" y="2079.33" as="sourcePoint" />
             <mxPoint x="540" y="2079.33" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-55" value="解析每个模块需要所有数据源，并确认数据源的获取顺序" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-55" value="解析每个模块需要所有数据源，并确认数据源的获取顺序" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="550" y="2050" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-57" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-57" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="480" y="2189.33" as="sourcePoint" />
             <mxPoint x="540" y="2189.33" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-58" value="获取数据源的加载方式，同步 or 异步。调用对应的数据源加载方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-58" value="获取数据源的加载方式，同步 or 异步。调用对应的数据源加载方法" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="550" y="2160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-59" value="对每个模块进行准入评估（过滤获取异常数据的情况）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-59" value="对每个模块进行准入评估（过滤获取异常数据的情况）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="550" y="2260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-60" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-60" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="470" y="2289.47" as="sourcePoint" />
             <mxPoint x="530" y="2289.47" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-61" value="评估成功后，进行最后一步数据处理。&lt;div&gt;dto-vo&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-61" value="评估成功后，进行最后一步数据处理。&lt;div&gt;dto-vo&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="770" y="2260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="95k89rPFp5nztIDtfaFW-62" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="95k89rPFp5nztIDtfaFW-62" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="690" y="2289.47" as="sourcePoint" />
             <mxPoint x="750" y="2289.47" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="RKi0RXdLV3BBvAYUonXw-1" value="获取用户信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1890" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RKi0RXdLV3BBvAYUonXw-2" value="加锁" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="1560" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="RKi0RXdLV3BBvAYUonXw-3" value="手机号解密" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1890" y="1605" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RKi0RXdLV3BBvAYUonXw-4" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RKi0RXdLV3BBvAYUonXw-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1800" y="1705" as="sourcePoint" />
+            <mxPoint x="2050" y="1583" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RKi0RXdLV3BBvAYUonXw-5" value="判断留资手机号是否事注册手机号，如果不是则需要额外校验参数中的二维码。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1890" y="1694" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RKi0RXdLV3BBvAYUonXw-6" value="调用crm中的rider留资服务，进行留资" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1890" y="1790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RKi0RXdLV3BBvAYUonXw-7" value="调用rider留资服务，进行留资" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1890" y="1890" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
