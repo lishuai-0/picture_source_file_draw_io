@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-02T05:56:27.885Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Ab9LekV0idOX8hHZ4Js9" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-02T06:16:02.899Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="-k-lqpLK7m5FtWVHWWP8" version="24.4.13" type="github">
   <diagram name="第 1 页" id="FhTdC2bvr46xT0aSxTmh">
     <mxGraphModel dx="789" dy="1670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -168,11 +168,23 @@
         <mxCell id="dOF-xwtYB641dK5NcoF4-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dOF-xwtYB641dK5NcoF4-74" target="dOF-xwtYB641dK5NcoF4-78">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dOF-xwtYB641dK5NcoF4-74" value="catchAll通配符&lt;div&gt;注：该通配符只允许在路径的结尾&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dOF-xwtYB641dK5NcoF4-74" value="catchAll通配符&lt;div&gt;注：该通配符只允许在路径的结尾、&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1670" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dOF-xwtYB641dK5NcoF4-78" value="把通配符前面有的路径存入节点path。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dOF-xwtYB641dK5NcoF4-78" value="前面可能还存在路径，如get/*/。把/ 前面有的路径存入节点path。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1850" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dOF-xwtYB641dK5NcoF4-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dOF-xwtYB641dK5NcoF4-81" target="dOF-xwtYB641dK5NcoF4-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dOF-xwtYB641dK5NcoF4-81" value="新建一个孩子节点存通配符" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2020" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dOF-xwtYB641dK5NcoF4-82" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.027;entryY=0.66;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dOF-xwtYB641dK5NcoF4-78" target="dOF-xwtYB641dK5NcoF4-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dOF-xwtYB641dK5NcoF4-83" value="新建一个节点存通配符后面的路径" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2190" y="200" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
