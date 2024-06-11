@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-02T04:19:46.870Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="2FQxYQk2NrdnVKN0v4rb" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-11T06:09:34.119Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="--yCbv_Ed14BMtWugLSr" version="24.4.13" type="github">
   <diagram name="第 1 页" id="m2qNsplwGHYHztVNJcIK">
-    <mxGraphModel dx="1629" dy="1184" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1026" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -279,41 +279,65 @@
             <mxPoint x="750" y="2289.47" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RKi0RXdLV3BBvAYUonXw-1" value="获取用户信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RKi0RXdLV3BBvAYUonXw-1" value="获取用户信息" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1890" y="1500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RKi0RXdLV3BBvAYUonXw-2" value="加锁" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="RKi0RXdLV3BBvAYUonXw-2" value="加锁" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1680" y="1560" width="120" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="RKi0RXdLV3BBvAYUonXw-3" value="手机号解密" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RKi0RXdLV3BBvAYUonXw-3" value="手机号解密" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1890" y="1605" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RKi0RXdLV3BBvAYUonXw-4" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RKi0RXdLV3BBvAYUonXw-2">
+        <mxCell id="RKi0RXdLV3BBvAYUonXw-4" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="RKi0RXdLV3BBvAYUonXw-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1800" y="1705" as="sourcePoint" />
             <mxPoint x="2050" y="1583" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RKi0RXdLV3BBvAYUonXw-5" value="判断留资手机号是否事注册手机号，如果不是则需要额外校验参数中的二维码。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RKi0RXdLV3BBvAYUonXw-5" value="判断留资手机号是否事注册手机号，如果不是则需要额外校验参数中的二维码。" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1890" y="1694" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RKi0RXdLV3BBvAYUonXw-6" value="调用crm中的rider留资服务，进行留资" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RKi0RXdLV3BBvAYUonXw-6" value="调用crm中的rider留资服务，进行留资" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1890" y="1790" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RKi0RXdLV3BBvAYUonXw-7" value="处理权益广场回调逻辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RKi0RXdLV3BBvAYUonXw-7" value="处理权益广场回调逻辑" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1890" y="1890" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RKi0RXdLV3BBvAYUonXw-8" value="释放锁" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="RKi0RXdLV3BBvAYUonXw-8" value="释放锁" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1680" y="2050" width="120" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="RKi0RXdLV3BBvAYUonXw-9" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RKi0RXdLV3BBvAYUonXw-8">
+        <mxCell id="RKi0RXdLV3BBvAYUonXw-9" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="RKi0RXdLV3BBvAYUonXw-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1800" y="2195" as="sourcePoint" />
             <mxPoint x="2050" y="2073" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RKi0RXdLV3BBvAYUonXw-10" value="处理权益广场回调逻辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RKi0RXdLV3BBvAYUonXw-10" value="处理权益广场回调逻辑" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1890" y="1980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RBHkO7N98Kv7FP020_PO-2" value="商详页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2481" y="1570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RBHkO7N98Kv7FP020_PO-4" value="商家分享" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2330" y="1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RBHkO7N98Kv7FP020_PO-5" value="销售分享" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2670" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RBHkO7N98Kv7FP020_PO-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RBHkO7N98Kv7FP020_PO-6" target="RBHkO7N98Kv7FP020_PO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RBHkO7N98Kv7FP020_PO-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RBHkO7N98Kv7FP020_PO-6" target="RBHkO7N98Kv7FP020_PO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RBHkO7N98Kv7FP020_PO-6" value="pc（星海）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2340" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RBHkO7N98Kv7FP020_PO-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RBHkO7N98Kv7FP020_PO-7" target="RBHkO7N98Kv7FP020_PO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RBHkO7N98Kv7FP020_PO-7" value="销售端（司机部落）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2650" y="1150" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
