@@ -1,12 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2024-06-11T06:12:44.955Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="RvRTRe4n39PfydYsCUn8" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-11T06:13:47.712Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="jLzxSA9wG5s0h6cApUdI" version="24.4.13" type="github">
   <diagram name="第 1 页" id="m2qNsplwGHYHztVNJcIK">
     <mxGraphModel dx="821" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="RBHkO7N98Kv7FP020_PO-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2200" y="1120" width="710" height="580" as="geometry" />
-        </mxCell>
         <mxCell id="95k89rPFp5nztIDtfaFW-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1290" y="310" width="220" height="700" as="geometry" />
         </mxCell>
@@ -362,6 +359,61 @@
         </mxCell>
         <mxCell id="RBHkO7N98Kv7FP020_PO-7" value="销售端（司机部落）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2670" y="1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RBHkO7N98Kv7FP020_PO-17" value="商详页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3121" y="1530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RBHkO7N98Kv7FP020_PO-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="RBHkO7N98Kv7FP020_PO-20" target="RBHkO7N98Kv7FP020_PO-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RBHkO7N98Kv7FP020_PO-19" value="share_source ：2 商家；端：PC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RBHkO7N98Kv7FP020_PO-18">
+          <mxGeometry x="-0.4246" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RBHkO7N98Kv7FP020_PO-20" value="商家分享" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2970" y="1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RBHkO7N98Kv7FP020_PO-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;" edge="1" parent="1" source="RBHkO7N98Kv7FP020_PO-23" target="RBHkO7N98Kv7FP020_PO-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RBHkO7N98Kv7FP020_PO-22" value="share_source ：1 商家；端: PC or 销售" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RBHkO7N98Kv7FP020_PO-21">
+          <mxGeometry x="-0.1401" y="2" relative="1" as="geometry">
+            <mxPoint x="20" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RBHkO7N98Kv7FP020_PO-23" value="销售分享" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3310" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RBHkO7N98Kv7FP020_PO-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=3;" edge="1" parent="1" source="RBHkO7N98Kv7FP020_PO-27" target="RBHkO7N98Kv7FP020_PO-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RBHkO7N98Kv7FP020_PO-30" value="PC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RBHkO7N98Kv7FP020_PO-24">
+          <mxGeometry x="-0.292" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RBHkO7N98Kv7FP020_PO-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RBHkO7N98Kv7FP020_PO-27" target="RBHkO7N98Kv7FP020_PO-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RBHkO7N98Kv7FP020_PO-26" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;pc&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RBHkO7N98Kv7FP020_PO-25">
+          <mxGeometry x="0.1121" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RBHkO7N98Kv7FP020_PO-27" value="pc（星海）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2970" y="1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RBHkO7N98Kv7FP020_PO-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="RBHkO7N98Kv7FP020_PO-29" target="RBHkO7N98Kv7FP020_PO-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RBHkO7N98Kv7FP020_PO-31" value="销售端" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RBHkO7N98Kv7FP020_PO-28">
+          <mxGeometry x="-0.0533" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RBHkO7N98Kv7FP020_PO-29" value="销售端（司机部落）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3310" y="1150" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
