@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-13T03:22:45.523Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="-xQ0OC7U9yKR4OEfef62" version="24.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-13T03:25:46.050Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="vXVAzyAEfmYdV_C4mqfq" version="24.5.2" type="github">
   <diagram name="第 1 页" id="m2qNsplwGHYHztVNJcIK">
     <mxGraphModel dx="1140" dy="1892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -699,6 +699,9 @@
         </mxCell>
         <mxCell id="g-PupdWWcY-JRHO1-Mhw-26" value="新增" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3210" y="2100" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="g-PupdWWcY-JRHO1-Mhw-27" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;销售分享（商品）&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+          <mxGeometry x="2420" y="2140" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
