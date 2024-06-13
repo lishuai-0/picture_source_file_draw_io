@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-13T03:04:25.397Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="DyWFeRkDH5QE1n37dRGz" version="24.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-13T03:05:49.809Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="eC7ciw8bU2XzqcGa9W5z" version="24.5.2" type="github">
   <diagram name="第 1 页" id="m2qNsplwGHYHztVNJcIK">
     <mxGraphModel dx="1140" dy="1892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -651,7 +651,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="g-PupdWWcY-JRHO1-Mhw-4" value="商家分享" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="g-PupdWWcY-JRHO1-Mhw-4" value="商家分享&lt;div&gt;（选品清单、店铺）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2601" y="2130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="g-PupdWWcY-JRHO1-Mhw-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;" edge="1" parent="1" source="g-PupdWWcY-JRHO1-Mhw-7">
@@ -664,7 +664,7 @@
             <mxPoint x="20" y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="g-PupdWWcY-JRHO1-Mhw-7" value="销售分享" style="rounded=1;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="g-PupdWWcY-JRHO1-Mhw-7" value="销售分享&lt;div&gt;（选品清单和店铺）&lt;/div&gt;" style="rounded=1;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="2941" y="2130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="g-PupdWWcY-JRHO1-Mhw-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=3;" edge="1" parent="1" source="g-PupdWWcY-JRHO1-Mhw-11" target="g-PupdWWcY-JRHO1-Mhw-4">
@@ -684,8 +684,8 @@
         <mxCell id="g-PupdWWcY-JRHO1-Mhw-14" value="销售端（司机部落）" style="rounded=1;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="2941" y="1980" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g-PupdWWcY-JRHO1-Mhw-15" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;留资现状&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2711" y="1910" width="240" height="30" as="geometry" />
+        <mxCell id="g-PupdWWcY-JRHO1-Mhw-15" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;留资点位下发现状（分享商品不下发留资点位）&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2650.5" y="1900" width="419" height="30" as="geometry" />
         </mxCell>
         <mxCell id="g-PupdWWcY-JRHO1-Mhw-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="g-PupdWWcY-JRHO1-Mhw-16" target="g-PupdWWcY-JRHO1-Mhw-17">
           <mxGeometry relative="1" as="geometry" />
@@ -702,7 +702,7 @@
           <mxGeometry x="2750" y="2530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="g-PupdWWcY-JRHO1-Mhw-22" value="新增" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3140" y="1950" width="120" height="80" as="geometry" />
+          <mxGeometry x="2825" y="1962.5" width="70" height="37.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
